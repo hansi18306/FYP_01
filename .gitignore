@@ -1,0 +1,15 @@
+# models
+model
+
+# data
+data
+
+# logs
+*.log
+*.json
+*.csv
+*.tsv
+*.parquet
+
+# python cache
+__pycache__/
