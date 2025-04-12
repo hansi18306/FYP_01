@@ -13,3 +13,12 @@ data
 
 # python cache
 __pycache__/
+
+# environment
+*.env
+*.envrc
+*.env.local
+venv
+myenv
+cyenv
+.env
