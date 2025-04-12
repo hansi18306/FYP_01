@@ -2,6 +2,22 @@
 
 Final Year Project - Prevention-Focused Cyberbullying Detection Discord Bot Using Neural Networks
 
+## Description
+This project is a Discord bot that detects cyberbullying in text messages using neural networks. The bot is designed to be prevention-focused, meaning it aims to identify and mitigate potential instances of cyberbullying before they escalate.
+
+## Setup Instructions
+
+Server setup is required to run the bot. Follow these steps to set up the server and run the bot:
+
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Create a virtual environment (optional but recommended) refer to [ENV.md](ENV.md) for more details:
+4. Install the required packages using `pip install -r requirements.txt`.
+5. Make sure all the models are in the `model` folder.
+6. Install `Tesseract-OCR` folder using the `tesseract.exe` file in the `model` folder.
+7. Run the bot using `python app.py` or `fastapi dev app.py`.
+8. Visit 127.0.0.1:8000/docs to access the web interface to check endpoints.
+
 ### Folder Structure
 ```
 .
@@ -22,3 +38,4 @@ Final Year Project - Prevention-Focused Cyberbullying Detection Discord Bot Usin
 ├── ENV.md
 └── .gitignore
 ```
+
