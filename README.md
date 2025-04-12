@@ -11,7 +11,11 @@ Final Year Project - Prevention-Focused Cyberbullying Detection Discord Bot Usin
 │   ├── count_vectorizer.pkl
 │   ├── logistic_regression_model.pkl
 │   └── tesseract.exe
-├── notebook
+├── notebooks
+├── python files
+│   ├── A2T.py
+│   ├── I2T.py
+│   └──T2T.py
 ├── app.py
 ├── requirements.txt
 ├── README.md
