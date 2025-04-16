@@ -11,12 +11,13 @@ Server setup is required to run the bot. Follow these steps to set up the server
 
 1. Clone the repository to your local machine.
 2. Navigate to the project directory.
-3. Create a virtual environment (optional but recommended) refer to [ENV.md](ENV.md) for more details:
-4. Install the required packages using `pip install -r requirements.txt`.
-5. Make sure all the models are in the `model` folder.
-6. Install `Tesseract-OCR` folder using the `tesseract.exe` file in the `model` folder.
-7. Run the bot using `python app.py` or `fastapi dev app.py`.
-8. Visit 127.0.0.1:8000/docs to access the web interface to check endpoints.
+3. Create a virtual environment (optional but recommended) refer to [ENV.md](ENV.md) for more details.
+4. Create a .env file in the root directory and add environment variables. Refer to .env.example for more details.
+5. Install the required packages using `pip install -r requirements.txt`.
+6. Make sure all the models are in the `model` folder.
+7. Install `Tesseract-OCR` folder using the `tesseract.exe` file in the `model` folder.
+8. Run the bot using `python app.py` or `fastapi dev app.py`.
+9. Visit 127.0.0.1:8000/docs to access the web interface to check endpoints.
 
 ### Folder Structure
 ```
@@ -39,3 +40,6 @@ Server setup is required to run the bot. Follow these steps to set up the server
 └── .gitignore
 ```
 
+### Environment Variables
+
+- [Hugging Face Token](https://huggingface.co/settings/tokens)
